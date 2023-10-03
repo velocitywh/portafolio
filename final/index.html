@@ -8,6 +8,41 @@
     <title>Guess My Number!</title>
   </head>
   <body>
+    <style>
+      #back-button-container {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 1000; /* Ensure it appears above other content */
+      }
+      #back-button {
+        background-color: #007bff; /* Change the background color as needed */
+        color: #fff; /* Change the text color as needed */
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    </style>
+    <div id="back-button-container"></div>
+    <script>
+      // Create the back button element
+      const backButtonContainer = document.getElementById(
+        'back-button-container'
+      );
+      const backButton = document.createElement('button');
+      backButton.setAttribute('id', 'back-button');
+      backButton.textContent = 'Back to Portfolio';
+
+      // Add an event listener to the back button
+      backButton.addEventListener('click', () => {
+        // Change the URL to your portfolio URL
+        window.location.href = '../index.html';
+      });
+
+      // Append the back button to the container
+      backButtonContainer.appendChild(backButton);
+    </script>
     <header>
       <h1>Guess My Number!</h1>
       <p class="between">(Between 1 and 20)</p>
