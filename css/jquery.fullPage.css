@@ -203,3 +203,6 @@ body {
 #fp-nav ul li .fp-tooltip.left {
   left: 20px;
 }
+.pixelpierce {
+  filter: brightness(0) invert(1);
+}
