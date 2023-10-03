@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boda Diana y Raul</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- test -->
+    <div id="back-button-container"></div>
+<section class="casamos">
+  <div></div>
+  <div class="overlay"></div>
+  <div id="particles"></div>
+  <div class="text">
+    <h4>¡Nos casamos!</h4>
+    <h2>
+      Raul <br />& <br />
+      Diana
+    </h2>
+    <h4>ESCUCHA NUESTRA CANCION</h4>
+    <div id="playstopbutton" class="music">
+      <img class="musicimg" id="playstop" src="assets/play.png" alt="music" />
+    </div>
+  </div>
+    <audio id="audio" controls style="display: none;">
+      <source src="assets/giveyouup.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+  </audio>
+</section>
+
+    <!-- Save The Date -->
+
+    <div class="savethedate">
+      <h2 class="savethedateh2">Save the Date</h2>
+      <h3 class="savethedateh3">Sabado 25 de Noviembre</h3>
+      <p class="savethedatep">
+        Se acerca la fecha de nuestra boda, y tú eres una persona muy especial
+        para nosotros. Es por eso que deseamos que seas parte de este capítulo
+        de nuestra historia.
+      </p>
+      <div class="heartcontainer">
+        <img class="heart" src="assets/whiteheart.png" />
+      </div>
+    </div>
+
+    <!-- Show Date -->
+
+
+    <div class="showdate">
+      <h2>Cuenta regresiva para el gran día</h2>
+      <div class="flexing">
+        <div class="time">
+          <p id="days1">00</p>
+          <span>Dias</span>
+        </div>
+        <div class="time">
+          <p id="hours1">00</p>
+          <span>Horas</span>
+        </div>
+        <div class="time">
+          <p id="minutes1">00</p>
+          <span>Minutos</span>
+        </div>
+        <div class="time">
+          <p id="seconds1">00</p>
+          <span>Segundos</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Save The Date -->
+
+    <div class="savethedate2">
+      <h2 class="savethedateh2">¿Cuándo y dónde?</h2>
+      <h3 class="savethedateh3">Sabado 25 de Noviembre</h3>
+      <div class="griddate">
+        <div class="place1">
+          <img class="heart" src="assets/venue.png" />
+          <p class="placep">Boda por el Civil</p>
+          <p class="placep2">SALÓN VICTORIA</p>
+          <p class="placep2">
+            6 de Abril 69, entre 8 y 9, Centro, 83640 Caborca, Son.
+          </p>
+          <p class="placep2">5:00 p.m.</p>
+          <a href="https://maps.app.goo.gl/1PCiWDTjKFBThDwp8?g_st=iw" target="_blank">
+            <div class="map-button">
+              <p>Ver Ubicacion</p>
+            </div>
+          </a>
+        </div>
+        <div class="place2">
+          <img class="heart" src="assets/reception.png" />
+          <p class="placep">Recepción</p>
+          <p class="placep2">Gran Hotel Ancira</p>
+          <p class="placep2">
+            Melchor Ocampo #440, Centro de Monterrey, Nuevo León.
+          </p>
+          <p class="placep2">7:00 p.m.</p>
+          <a href="https://www.google.com.mx/maps" target="_blank">
+            <div class="map-button">
+              <p>Ver Ubicacion</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Schedule-->
+    <div class="timelinecontainermaster">
+      <div class="ghost">
+        <div class="first timelinecontainer left">
+          <img class="eventimg" src="assets/wedding-ring.png" alt="play" />
+          <div class="text-box">
+            <h2>Discurso</h2>
+            <small>5:00 PM</small>
+            <p>Salon del Reino de Los Testigos de Jehova</p>
+            <span class="left-container-arrow"></span>
+          </div>
+        </div>
+        <div class="second timelinecontainer right">
+          <img class="eventimg" src="assets/wedding-ring.png" alt="play" />
+
+          <div class="text-box">
+            <h2>Discurso</h2>
+            <small>5:00 PM</small>
+            <p>Salon del Reino de Los Testigos de Jehova</p>
+            <span class="right-container-arrow"></span>
+          </div>
+        </div>
+        <div class="third timelinecontainer left">
+          <img class="eventimg" src="assets/wedding-ring.png" alt="play" />
+
+          <div class="text-box">
+            <h2>Discurso</h2>
+            <small>5:00 PM</small>
+            <p>Salon del Reino de Los Testigos de Jehova</p>
+            <span class="left-container-arrow"></span>
+          </div>
+        </div>
+        <div class="fourth timelinecontainer right">
+          <img class="eventimg" src="assets/wedding-ring.png" alt="play" />
+
+          <div class="text-box">
+            <h2>Discurso</h2>
+            <small>5:00 PM</small>
+            <p>Salon del Reino de Los Testigos de Jehova</p>
+            <span class="right-container-arrow"></span>
+          </div>
+        </div>
+        <div class="fifth timelinecontainer left">
+          <img class="eventimg" src="assets/wedding-ring.png" alt="play" />
+          <div class="text-box">
+            <h2>Discurso</h2>
+            <small>5:00 PM</small>
+            <p>Salon del Reino de Los Testigos de Jehova</p>
+            <span class="left-container-arrow"></span>
+          </div>
+        </div>
+        <div class="sixth timelinecontainer right">
+          <img class="eventimg" src="assets/wedding-ring.png" alt="play" />
+
+          <div class="text-box">
+            <h2>Discurso</h2>
+            <small>5:00 PM</small>
+            <p>Salon del Reino de Los Testigos de Jehova</p>
+            <span class="right-container-arrow"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Forum -->
+    <div class="weddingformbackground">
+      <div class="weddingform">
+        <h2>Confirmacion de Asistencia</h2>
+        <p>
+          ¡Queremos compartir este momento tan esperado contigo! Por favor,
+          ayúdanos confirmando tu asistencia.
+        </p>
+        <form id="confirmation-form">
+          <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email"> Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="guests">Asistentes:</label>
+            <select id="guests" name="guests" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje Adicional:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Confirmar" />
+          </div>
+        </form>
+
+        <div class="popup" id="popup">
+          <div class="popup-content">
+              <span class="close" id="close-popup">&times;</span>
+              <p>Gracias por confirmar!</p>
+          </div>
+      </div>
+
+      </div>
+    </div>
+    <!-- Dress Code-->
+    <section class="dress-code">
+      <div class="column">
+        <h2>Men's Dress Code</h2>
+        <p>For the gentlemen, we kindly request:</p>
+        <ul>
+          <li>Formal suit and tie</li>
+          <li>Black or navy blue preferred</li>
+          <li>Polished dress shoes</li>
+          <li>Accessories optional</li>
+        </ul>
+      </div>
+      <div class="image-column">
+        <img src="assets/men.png" alt="Men's Dress Code Example" />
+      </div>
+    </section>
+    <section class="dress-code">
+      <div class="column">
+        <h2>Women's Dress Code</h2>
+        <p>For the ladies, we recommend:</p>
+        <ul>
+          <li>Formal evening gown</li>
+          <li>Elegant and classy</li>
+          <li>Matching accessories</li>
+          <li>Comfortable heels</li>
+        </ul>
+      </div>
+      <div class="image-column">
+        <img src="assets/women.png" alt="Women's Dress Code Example" />
+      </div>
+    </section>
+
+    <!-- Mesa de Regalos -->
+    
+  <section class="mesasection">
+    <div class="mesacontainer">
+      <h2>Surgerencia de Regalo</h2>
+      <p class="regalosp">
+        Para nosotros tu presencia, y compartir contigo este momento, es el
+        mejor regalo, pero si deseas hacernos algún obsequio puede ser:
+      </p>
+      <h3>Mesa de regalos</h3>
+      <div class="mesa">
+        <div class="place1">
+          <img class="heart" src="assets/amazon.png" />
+          <br>
+          <a href="https://www.google.com.mx/maps" target="_blank">
+            <div class="map-button">
+            </a>
+              <p>Ver Seleccion</p>
+            </div>
+        </div>
+        <div class="place2">
+          <img class="heart" src="assets/creditcard.png" />
+          <br>
+          <a href="https://www.google.com.mx/maps" target="_blank">
+            <div class="map-button">
+            </a>
+              <p>Ver Seleccion</p>
+            </div>
+        </div>
+      </section>  
+      </div>
+    </div>
+
+    <!-- Galeria de Fotos -->
+    <section class="image-gallery">
+      <h2>Galeria de Fotos</h2>
+      <div class="picture-row">
+        <div class="picture">
+            <img src="assets/img1.jpeg" alt="Portrait Image 1">
+        </div>
+        <div class="picture">
+            <img src="assets/img2.png" alt="Portrait Image 2">
+        </div>
+        <div class="picture">
+            <img src="assets/img3.jpeg" alt="Portrait Image 3">
+        </div>
+    </div>
+    </section>
+
+    <!-- Final -->
+
+    <footer class="final">   
+      <h2>
+        Raul &
+        Diana
+      </h2>
+      &copy; 2023 | pixelpierce
+  </footer>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  </body>
+</html>
